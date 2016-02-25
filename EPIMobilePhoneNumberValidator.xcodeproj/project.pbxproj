@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		464C0A3AA928300FEA28B611 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB11C80EBF442A31894E636 /* libPods.a */; };
+		A3FFD4551C7F29B30023BA5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFD4541C7F29B30023BA5D /* main.m */; };
+		A3FFD4581C7F29B30023BA5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFD4571C7F29B30023BA5D /* AppDelegate.m */; };
+		A3FFD45E1C7F29B30023BA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FFD45C1C7F29B30023BA5D /* Main.storyboard */; };
+		A3FFD4601C7F29B30023BA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FFD45F1C7F29B30023BA5D /* Assets.xcassets */; };
+		A3FFD4631C7F29B30023BA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FFD4611C7F29B30023BA5D /* LaunchScreen.storyboard */; };
+		A3FFD46C1C7F2B730023BA5D /* EPIMobilePhoneNumberValidatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFD46B1C7F2B730023BA5D /* EPIMobilePhoneNumberValidatorViewController.m */; };
+		A3FFD46F1C7F2BFC0023BA5D /* EPICountry.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFD46E1C7F2BFC0023BA5D /* EPICountry.m */; };
+		A3FFD4711C7F2DD00023BA5D /* country-codes.json in Resources */ = {isa = PBXBuildFile; fileRef = A3FFD4701C7F2DD00023BA5D /* country-codes.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21CB12E28DF94F567C474DE9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2BB11C80EBF442A31894E636 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCFB43B6EF96A1C86D7618B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A3FFD4501C7F29B30023BA5D /* EPIMobilePhoneNumberValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPIMobilePhoneNumberValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FFD4541C7F29B30023BA5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3FFD4561C7F29B30023BA5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3FFD4571C7F29B30023BA5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3FFD45D1C7F29B30023BA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3FFD45F1C7F29B30023BA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3FFD4621C7F29B30023BA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3FFD4641C7F29B30023BA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FFD46A1C7F2B730023BA5D /* EPIMobilePhoneNumberValidatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPIMobilePhoneNumberValidatorViewController.h; sourceTree = "<group>"; };
+		A3FFD46B1C7F2B730023BA5D /* EPIMobilePhoneNumberValidatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPIMobilePhoneNumberValidatorViewController.m; sourceTree = "<group>"; };
+		A3FFD46D1C7F2BFC0023BA5D /* EPICountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPICountry.h; sourceTree = "<group>"; };
+		A3FFD46E1C7F2BFC0023BA5D /* EPICountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPICountry.m; sourceTree = "<group>"; };
+		A3FFD4701C7F2DD00023BA5D /* country-codes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "country-codes.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3FFD44D1C7F29B30023BA5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464C0A3AA928300FEA28B611 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57F0A01F51112FE3CC25384C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21CB12E28DF94F567C474DE9 /* Pods.debug.xcconfig */,
+				2FCFB43B6EF96A1C86D7618B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3FFD4471C7F29B30023BA5D = {
+			isa = PBXGroup;
+			children = (
+				A3FFD4521C7F29B30023BA5D /* EPIMobilePhoneNumberValidator */,
+				A3FFD4511C7F29B30023BA5D /* Products */,
+				57F0A01F51112FE3CC25384C /* Pods */,
+				E7C14104D9F78EC931AB2721 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3FFD4511C7F29B30023BA5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FFD4501C7F29B30023BA5D /* EPIMobilePhoneNumberValidator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3FFD4521C7F29B30023BA5D /* EPIMobilePhoneNumberValidator */ = {
+			isa = PBXGroup;
+			children = (
+				A3FFD4561C7F29B30023BA5D /* AppDelegate.h */,
+				A3FFD4571C7F29B30023BA5D /* AppDelegate.m */,
+				A3FFD46A1C7F2B730023BA5D /* EPIMobilePhoneNumberValidatorViewController.h */,
+				A3FFD46B1C7F2B730023BA5D /* EPIMobilePhoneNumberValidatorViewController.m */,
+				A3FFD46D1C7F2BFC0023BA5D /* EPICountry.h */,
+				A3FFD46E1C7F2BFC0023BA5D /* EPICountry.m */,
+				A3FFD45C1C7F29B30023BA5D /* Main.storyboard */,
+				A3FFD45F1C7F29B30023BA5D /* Assets.xcassets */,
+				A3FFD4611C7F29B30023BA5D /* LaunchScreen.storyboard */,
+				A3FFD4641C7F29B30023BA5D /* Info.plist */,
+				A3FFD4701C7F2DD00023BA5D /* country-codes.json */,
+				A3FFD4531C7F29B30023BA5D /* Supporting Files */,
+			);
+			path = EPIMobilePhoneNumberValidator;
+			sourceTree = "<group>";
+		};
+		A3FFD4531C7F29B30023BA5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3FFD4541C7F29B30023BA5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7C14104D9F78EC931AB2721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BB11C80EBF442A31894E636 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3FFD44F1C7F29B30023BA5D /* EPIMobilePhoneNumberValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FFD4671C7F29B30023BA5D /* Build configuration list for PBXNativeTarget "EPIMobilePhoneNumberValidator" */;
+			buildPhases = (
+				8A3DA16B1FA18822C6AA79B4 /* Check Pods Manifest.lock */,
+				A3FFD44C1C7F29B30023BA5D /* Sources */,
+				A3FFD44D1C7F29B30023BA5D /* Frameworks */,
+				A3FFD44E1C7F29B30023BA5D /* Resources */,
+				56DA50911E7C6B304B90418E /* Embed Pods Frameworks */,
+				853C5B9AF30474E1DA1F41D3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPIMobilePhoneNumberValidator;
+			productName = EPIMobilePhoneNumberValidator;
+			productReference = A3FFD4501C7F29B30023BA5D /* EPIMobilePhoneNumberValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3FFD4481C7F29B30023BA5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = EPINOM;
+				TargetAttributes = {
+					A3FFD44F1C7F29B30023BA5D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A3FFD44B1C7F29B30023BA5D /* Build configuration list for PBXProject "EPIMobilePhoneNumberValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3FFD4471C7F29B30023BA5D;
+			productRefGroup = A3FFD4511C7F29B30023BA5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FFD44F1C7F29B30023BA5D /* EPIMobilePhoneNumberValidator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3FFD44E1C7F29B30023BA5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FFD4631C7F29B30023BA5D /* LaunchScreen.storyboard in Resources */,
+				A3FFD4711C7F2DD00023BA5D /* country-codes.json in Resources */,
+				A3FFD4601C7F29B30023BA5D /* Assets.xcassets in Resources */,
+				A3FFD45E1C7F29B30023BA5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56DA50911E7C6B304B90418E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		853C5B9AF30474E1DA1F41D3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3DA16B1FA18822C6AA79B4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3FFD44C1C7F29B30023BA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FFD4581C7F29B30023BA5D /* AppDelegate.m in Sources */,
+				A3FFD46F1C7F2BFC0023BA5D /* EPICountry.m in Sources */,
+				A3FFD46C1C7F2B730023BA5D /* EPIMobilePhoneNumberValidatorViewController.m in Sources */,
+				A3FFD4551C7F29B30023BA5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3FFD45C1C7F29B30023BA5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FFD45D1C7F29B30023BA5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3FFD4611C7F29B30023BA5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FFD4621C7F29B30023BA5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3FFD4651C7F29B30023BA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3FFD4661C7F29B30023BA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3FFD4681C7F29B30023BA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CB12E28DF94F567C474DE9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EPIMobilePhoneNumberValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.epinom.EPIMobilePhoneNumberValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3FFD4691C7F29B30023BA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FCFB43B6EF96A1C86D7618B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EPIMobilePhoneNumberValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.epinom.EPIMobilePhoneNumberValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3FFD44B1C7F29B30023BA5D /* Build configuration list for PBXProject "EPIMobilePhoneNumberValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FFD4651C7F29B30023BA5D /* Debug */,
+				A3FFD4661C7F29B30023BA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FFD4671C7F29B30023BA5D /* Build configuration list for PBXNativeTarget "EPIMobilePhoneNumberValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FFD4681C7F29B30023BA5D /* Debug */,
+				A3FFD4691C7F29B30023BA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3FFD4481C7F29B30023BA5D /* Project object */;
+}
