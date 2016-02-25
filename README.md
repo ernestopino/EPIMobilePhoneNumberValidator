@@ -35,3 +35,11 @@ The following are some of the features included in this example:
 - Validate the phone input by the user in real time, and only if it is correct enable the button that performs the action
 
 I hope you find it useful ;)
+
+## Dependencias
+
+Requiere de la librería [libPhoneNumber]: https://github.com/iziz/libPhoneNumber-iOS
+
+## Licencia
+
+Este proyecto está bajo licencia MIT. Para más información consulta el fichero LICENSE.
