@@ -42,11 +42,11 @@ I hope you find it useful ;)
 
 ## Dependencias
 
-Requiere de la librería [libPhoneNumber]: https://github.com/iziz/libPhoneNumber-iOS
+Requiere de la librería "[libPhoneNumber](https://github.com/iziz/libPhoneNumber-iOS)"
 
 ## Créditos
 
-Imagotipo representativo del proyecto by Ribbla Team, tanto en esta página de Github como en la propia aplicación.
+Imagotipo representativo del proyecto by [Ribbla Team](https://thenounproject.com/Ribbla/), tanto en esta página de Github como en la propia aplicación.
 
 ## Licencia
 
