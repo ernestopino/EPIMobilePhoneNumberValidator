@@ -1,4 +1,6 @@
-->![](https://www.dropbox.com/s/b994sfa6kgtf11r/epi-mobile-phone-validator-github-image.png?raw=1)<-
+<p align="center">
+  <img src="https://www.dropbox.com/s/b994sfa6kgtf11r/epi-mobile-phone-validator-github-image.png?raw=1">
+</p>
 
 # EPIMobilePhoneNumberValidator
 
