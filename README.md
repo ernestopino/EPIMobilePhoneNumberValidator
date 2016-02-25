@@ -44,6 +44,10 @@ I hope you find it useful ;)
 
 Requiere de la librería [libPhoneNumber]: https://github.com/iziz/libPhoneNumber-iOS
 
+## Créditos
+
+Imagotipo representativo del proyecto by Ribbla Team, tanto en esta página de Github como en la propia aplicación.
+
 ## Licencia
 
 The MIT License (MIT)
