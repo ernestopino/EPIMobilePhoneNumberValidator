@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -86,12 +87,12 @@
                                 <exclude reference="tSw-fz-fYM"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="3Bd-mj-wvW"/>
-                                <exclude reference="Kvk-ba-Gfb"/>
                                 <exclude reference="NG0-ag-Zcc"/>
                                 <exclude reference="SfO-Xj-EYV"/>
                                 <exclude reference="G3q-H3-fZ9"/>
                                 <exclude reference="bBu-fY-9vr"/>
+                                <exclude reference="3Bd-mj-wvW"/>
+                                <exclude reference="Kvk-ba-Gfb"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -101,12 +102,12 @@
                                 <include reference="tSw-fz-fYM"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="3Bd-mj-wvW"/>
-                                <include reference="Kvk-ba-Gfb"/>
                                 <include reference="NG0-ag-Zcc"/>
                                 <include reference="SfO-Xj-EYV"/>
                                 <include reference="G3q-H3-fZ9"/>
                                 <include reference="bBu-fY-9vr"/>
+                                <include reference="3Bd-mj-wvW"/>
+                                <include reference="Kvk-ba-Gfb"/>
                             </mask>
                         </variation>
                     </view>
